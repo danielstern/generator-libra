@@ -1,4 +1,4 @@
-# generator-libra [![Build Status](https://secure.travis-ci.org/danielstern/generator-libra.png?branch=master)](https://travis-ci.org/danielstern/generator-libra)
+# generator-libra
 
 > [Yeoman](http://yeoman.io) generator
 
