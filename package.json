@@ -1,0 +1,34 @@
+{
+  "name": "MyLibrary",
+  "version": "0.0.0",
+  "title": "My Library",
+  "homepage": "http://github.com/danielstern",
+  "description": "Javascript Library Generator",
+  "author": {
+    "name": "Daniel Stern",
+    "url": "http://github.com/danielstern",
+    "email": "daniel@danielstern.ca"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/danielstern/generator-libra.git"
+  },
+  "keywords": [
+      "vpl",
+      "javascript",
+      "library"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "bower": "~1.1.2",
+    "grunt-notify": "~0.2.7",
+    "grunt-contrib-uglify": "~0.2.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "matchdep": "~0.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.17",
+    "npm": ">=1.3.8"
+  }
+}

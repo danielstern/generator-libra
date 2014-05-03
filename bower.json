@@ -1,0 +1,18 @@
+{
+  "name": "My Library",
+  "version": "0.0.0",
+  "ignore": [
+    "lib",
+    "test",
+    "spec",
+    "src",
+    "node_modules",
+    "Gruntfile.js",
+    "package.json",
+    "bower.json",
+    ".travis.yml",
+    ".gitignore"
+  ],
+  "dependencies": {
+  }
+}
