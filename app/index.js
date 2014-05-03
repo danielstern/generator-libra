@@ -54,9 +54,10 @@ var LibraGenerator = yeoman.generators.Base.extend({
             return features.indexOf(feat) !== -1;
           }
 
-
           var features = props.features;
           this.includeUnderscore = hasFeature('includeUnderscore');
+
+          this.libraryName = props.libraryName;
 
           done();
         }.bind(this));
@@ -68,7 +69,7 @@ var LibraGenerator = yeoman.generators.Base.extend({
           this.copy('gruntfile.js', 'gruntfile.js');
           this.directory('src/js', 'js');
 
-          this.copy('_package.json', 'package.json');
+          this.template('_package.json', 'package.json');
           this.copy('_bower.json', 'bower.json');
 
           // var grunt = require('grunt');
@@ -76,8 +77,8 @@ var LibraGenerator = yeoman.generators.Base.extend({
         },
 
         projectfiles: function() {
-          this.copy('editorconfig', '.editorconfig');
-          this.copy('jshintrc', '.jshintrc');
+         // this.copy('editorconfig', '.editorconfig');
+         // this.copy('jshintrc', '.jshintrc');
         }
     });
 
